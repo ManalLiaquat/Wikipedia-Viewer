@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="https://en.wikipedia.org/static/favicon/wikipedia.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>WikiPedia Viewer</title>
+</head>
+
+<body>
+    <center>
+        <div class="container" id="go">
+            <a name="" id="" class="btn btn-primary btn-md" href="https://en.wikipedia.org/wiki/Special:Random" role="button">
+                <i class="fa fa-random"></i> Click here for a random article</a>
+            <br>
+            <br>
+            <input type="search" autofocus spellcheck="true" autocomplete="off" placeholder="or search specific article" class="form-control form-inline"
+                id="search">
+            <br>
+            <button type="submit" onclick="func1()" id="myBtn" class="btn-lg btn-warning">
+                <i class="fa fa-search"></i> search</button>
+            <br>
+            <br>
+            <iframe height="400px" width="100%" id="iframe"></iframe>
+        </div>
+        <div class="container">
+            <a href="https://github.com/ManalLiaquat/" class="badge badge-warning float-right" target="_blank">Created By: Manal Liaquat</a>
+        </div>
+    </center>
+
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
